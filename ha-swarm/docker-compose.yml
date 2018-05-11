@@ -1,0 +1,22 @@
+version: "3.2"
+services:
+  web:
+    build: .
+    image: jonatasrenan/ha-phpapp
+    ports:
+      - "8000:80"
+    networks:
+      - front
+    deploy:
+      replicas: 3
+      # update_config:
+        # parallelism: 3
+        # delay: 1s
+      # placement:
+        # constraints: [node.role == manager]
+      # restart_policy:
+        # condition: on-failure
+
+networks:
+  front:
+    driver: overlay
