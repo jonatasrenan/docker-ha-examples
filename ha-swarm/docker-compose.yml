@@ -1,7 +1,7 @@
 version: "3.2"
 services:
   web:
-    image: jonatasrenan/ha-phpapp
+    image: jonatasrenan/docker-ha-examples:ha-swarm
     ports:
       - "8000:80"
     networks:
