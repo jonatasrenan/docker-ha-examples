@@ -36,8 +36,7 @@ Um servidor web apresentando o nome identificador do container atual
 ## Terraform
 
 O Terraform possibilita declarar recursos a serem provisionados
-em diversas estruturas de nuvem. Nesta implementação utilizaremos a AWS
-como serviço de núvem.
+em diversas estruturas de nuvem dentre elas a AWS.
 
 Para facilitar o entendimento e maximizar o reuso os recursos foram
 divididos em módulos.
