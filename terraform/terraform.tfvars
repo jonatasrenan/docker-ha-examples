@@ -12,4 +12,3 @@ source-repository-branch      = "master"
 source-repository-folder      = "terraform"
 # App
 environment                   = "production"
-domain                        = "devops-challenge.tk"

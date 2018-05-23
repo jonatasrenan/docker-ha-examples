@@ -41,6 +41,3 @@ variable "source-repository-folder" {
 variable environment {
   description = "Environment"
 }
-variable "domain" {
-  default = "App Domain"
-}
