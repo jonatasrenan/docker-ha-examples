@@ -96,6 +96,8 @@ Docker será enviada para o Registro Docker do ECR e o deploy será feito.
 
 [Criação de Token pessoal de acesso GitHub](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
 
+É possível ver os passos do pipeline no painel do AWS CodePipeline
+
 # Próximos passos
 
 -  Criar um serviço no backend.
